@@ -27,38 +27,29 @@ Installation
 This product is installable using pip_ or it can cloned directly from `Github`_.
 For example, to install the "0.1.0" tag (or release) do
 
-```bash
+.. code-block:: bash
 
   pip install git+https://github.com/desihub/desibgs.git@0.1.0
   
-```  
-
 Alternatively, you can clone the master branch from `Github`_ 
   
-```bash
+.. code-block:: bash
 
   git clone git@github.com:desihub/desibgs.git
-  
-```  
 
 and then either install the package to an installation directory of your
 choice
 
-```python
+.. code-block:: bash
 
-  python setup.py install --prefix=$INSTALL_DIR
-  
-```
+  python setup.py install --prefix=$INSTALL_DIR  
 
 or explicitly add the code directory to you $PYTHONPATH, e.g.
 
-```bash
+.. code-block:: bash
 
   export PYTHONPATH=/path/to/desibgs/py:$PYTHONPATH
-  
   export PATH=/path/to/desibgs/bin:${PATH}
-  
-```
 
 .. _pip: http://pip.readthedocs.org
 .. _Github: http://https://github.com
@@ -78,5 +69,7 @@ py/
 License
 =======
 
-desibgs is free software licensed under a 3-clause BSD-style license. For details see
-the ``LICENSE.rst`` file.
+`desibgs`_ is free software licensed under a 3-clause BSD-style license. For
+details see the ``LICENSE.rst`` file.
+
+.. _`desibgs`: https://github.com/desihub/desibgs
