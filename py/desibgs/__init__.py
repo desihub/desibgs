@@ -1,11 +1,11 @@
 # Licensed under a 3-clause BSD style license - see LICENSE.rst
 # -*- coding: utf-8 -*-
 """
-============
-desitemplate
-============
+=======
+desibgs
+=======
 
-This package is a template for other DESI_ Python_ packages.
+This package is a DESI_ Python_ package.
 
 You should use ``python setup.py version`` to set the version.  This requires
 the desiutil_ package.
