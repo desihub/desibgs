@@ -2,6 +2,16 @@
 desibgs
 =======
 
+.. image:: https://img.shields.io/travis/desihub/desibgs.svg
+    :target: https://travis-ci.org/desihub/desibgs
+    :alt: Travis Build Status
+.. image:: https://coveralls.io/repos/desihub/desibgs/badge.svg?service=github
+    :target: https://coveralls.io/github/desihub/desibgs
+    :alt: Test Coverage Status
+.. image:: https://readthedocs.org/projects/desibgs/badge/?version=latest
+    :target: http://desibgs.readthedocs.org/en/latest/
+    :alt: Documentation Status
+
 Introduction
 ============
 
@@ -72,7 +82,6 @@ requirements.txt
         pip install -r requirements.txt
 
 MANIFEST.in
-
     This file contains instructions for the setup system that will be used to
     construct an "official" tarball of the package.  For example, this file will
     be used by the command::
