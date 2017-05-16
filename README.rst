@@ -44,7 +44,7 @@ choice
 
   python setup.py install --prefix=$INSTALL_DIR  
 
-or explicitly add the code directory to you $PYTHONPATH, e.g.
+or explicitly add the code directory to your ``$PYTHONPATH`` environment, e.g. 
 
 .. code-block:: bash
 
@@ -52,7 +52,7 @@ or explicitly add the code directory to you $PYTHONPATH, e.g.
   export PATH=/path/to/desibgs/bin:${PATH}
 
 .. _pip: http://pip.readthedocs.org
-.. _Github: http://https://github.com
+.. _Github: https://github.com
 
 Product Contents
 ================
