@@ -1,11 +1,11 @@
-=========================================
-Welcome to desitemplates's documentation!
-=========================================
+====================================
+Welcome to desibgss's documentation!
+====================================
 
 Introduction
 ============
 
-This is the documentation for desitemplate.
+This is the documentation for desibgs.
 
 Contents
 ========
