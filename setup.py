@@ -19,12 +19,12 @@ setup_keywords = dict()
 #
 # THESE SETTINGS NEED TO BE CHANGED FOR EVERY PRODUCT.
 #
-setup_keywords['name'] = 'desitemplate'
-setup_keywords['description'] = 'DESI template package'
+setup_keywords['name'] = 'desibgs'
+setup_keywords['description'] = 'DESI BGS package'
 setup_keywords['author'] = 'DESI Collaboration'
 setup_keywords['author_email'] = 'desi-data@desi.lbl.gov'
 setup_keywords['license'] = 'BSD'
-setup_keywords['url'] = 'https://github.com/desihub/desitemplate'
+setup_keywords['url'] = 'https://github.com/desihub/desibgs'
 #
 # END OF SETTINGS THAT NEED TO BE CHANGED.
 #
