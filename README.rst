@@ -28,27 +28,36 @@ This product is installable using pip_ or it can cloned directly from `Github`_.
 For example, to install the "0.1.0" tag (or release) do
 
 ```bash
+
   pip install git+https://github.com/desihub/desibgs.git@0.1.0
+  
 ```  
 
 Alternatively, you can clone the master branch from `Github`_ 
   
 ```bash
+
   git clone git@github.com:desihub/desibgs.git
+  
 ```  
 
 and then either install the package to an installation directory of your
 choice
 
 ```python
+
   python setup.py install --prefix=$INSTALL_DIR
+  
 ```
 
 or explicitly add the code directory to you $PYTHONPATH, e.g.
 
 ```bash
+
   export PYTHONPATH=/path/to/desibgs/py:$PYTHONPATH
+  
   export PATH=/path/to/desibgs/bin:${PATH}
+  
 ```
 
 .. _pip: http://pip.readthedocs.org
