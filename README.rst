@@ -25,84 +25,46 @@ Installation
 ============
 
 This product is installable using pip_ or it can cloned directly from `Github`_.
-For example, to install the "0.1.0" tag (or release) do::
+For example, to install the "0.1.0" tag (or release) do
 
+```bash
   pip install git+https://github.com/desihub/desibgs.git@0.1.0
+```  
 
-Alternatively, to clone the master branch from `Github`_ do::
+Alternatively, you can clone the master branch from `Github`_ 
   
+```bash
   git clone git@github.com:desihub/desibgs.git
+```  
 
-Then you can either install the package to an appropriate directory
+and then either install the package to an installation directory of your
+choice
 
+```python
   python setup.py install --prefix=$INSTALL_DIR
+```
 
 or explicitly add the code directory to you $PYTHONPATH, e.g.
 
+```bash
   export PYTHONPATH=/path/to/desibgs/py:$PYTHONPATH
   export PATH=/path/to/desibgs/bin:${PATH}
-  
+```
+
 .. _pip: http://pip.readthedocs.org
 .. _Github: http://https://github.com
 
 Product Contents
 ================
 
-Directory Structure
-~~~~~~~~~~~~~~~~~~~
-
 bin/
     Executable scripts.
 doc/
-    High-level documentation (.rst files), which will be processed by Sphinx_.
+    High-level documentation (.rst files).
 etc/
     Small data and configuration files.
 py/
     Python code.
-
-.. _Sphinx: http://sphinx-doc.org
-
-Additional Support Files
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-In addition to the standard ``.gitignore`` file, there are two other
-hidden files included in this product.
-
-.coveragerc
-    Configuration for the test coverage.
-
-.travis.yml
-    Configuration file for `Travis CI`_ tests.
-
-requirements.txt
-    The requirements.txt file contains other Python packages required by this
-    package which will be processed during Travis tests to install packages
-    needed for the tests.  This file is processed with the command::
-
-        pip install -r requirements.txt
-
-MANIFEST.in
-    This file contains instructions for the setup system that will be used to
-    construct an "official" tarball of the package.  For example, this file will
-    be used by the command::
-
-        python setup.py sdist
-
-    This file is absolutely necessary if your package will be distributed via
-    PyPI_.
-
-.module
-    In the etc/ directory is a file called ``desibgs.module``.  This file is
-    used to create a module file for the product at install time.  This file is
-    intended for use at NERSC_; it is not processed automatically by pip.
-
-_version.py
-    This file is created and maintained by the command::
-
-        python setup.py version
-
-.. _PyPI: http://pypi.python.org
-.. _`Travis CI`: http://travis-ci.org
 
 License
 =======
